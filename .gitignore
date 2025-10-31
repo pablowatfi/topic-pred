@@ -1,0 +1,27 @@
+data/
+artifacts/
+
+# Virtualenv
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Distribution/build
+dist/
+build/
+*.egg-info/
+
+
+

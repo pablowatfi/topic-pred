@@ -1,0 +1,9 @@
+# Minimal runtime requirements for the topic-pred project
+torch
+numpy<2,>=1.21
+pandas>=1.3
+scikit-learn>=1.2
+transformers>=4.0
+sentence-transformers>=2.0
+joblib>=1.0
+pydantic>=1.8
