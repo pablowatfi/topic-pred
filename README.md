@@ -6,7 +6,7 @@ Content-to-Topic prediction system for K-12 educational materials using semantic
 
 ### Overview of Approach
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/pablowatfi/Desktop/Screenshot%202025-10-31%20at%205.16.01%E2%80%AFPM.png?version%3D1761941817521)
+![Overview](./image.png)
 
 This solution uses a **semantic embedding similarity approach** to match content to topics:
 
@@ -17,7 +17,7 @@ This solution uses a **semantic embedding similarity approach** to match content
 
 **Rationale**: Embedding-based approaches capture semantic meaning effectively and generalize well to new content without requiring extensive training data. The multilingual model ensures robustness across varied educational content.
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/pablowatfi/Desktop/Screenshot%202025-10-31%20at%205.16.12%E2%80%AFPM.png?version%3D1761941850174)
+![For evaluation](./evaluation.png)
 
 **Metrics**: since the topics were duplicated, and sometimes we might predict the correct topic but not the correct id. I opted for establish a match if the cosine similarity is greater than 0.9
 
@@ -41,6 +41,8 @@ This solution uses a **semantic embedding similarity approach** to match content
 - `predict_method.py`: Core prediction logic using cosine similarity
 - `io.py`: Data loading helpers
 - `defaults.py`: Configuration constants
+
+
 
 ## Metrics
 
