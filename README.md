@@ -48,9 +48,10 @@ This solution uses a **semantic embedding similarity approach** to match content
 
 | Metric | Score |
 |--------|-------|
-| Recall@3 | 0.4576 |
-| Precision@3 | 0.1876 |
-| F2-Score@3 | 0.3587 |
+| Recall | 0.2638 |
+| Precision | 0.1655 |
+| F1-Score | 0.2034 |
+
 
 *Note: Metrics computed on validation set using correlations.csv as ground truth. Remember that a match is the combined_text similarity greater than 0.9 between pred and true values*
 
