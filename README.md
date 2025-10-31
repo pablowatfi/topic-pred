@@ -6,7 +6,7 @@ What is included
 - `requirements.txt` – runtime dependencies to install (minimal)
 - `src/topic_pred` – package with a `predict_template` function
 
-## How to create the artifactas and the model
+## How to create the artifacts
 - You need to download the data in the 'data' folder (find them in https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations.). 3 files are needed:
   - `content.csv`
   - `correlations.csv`
